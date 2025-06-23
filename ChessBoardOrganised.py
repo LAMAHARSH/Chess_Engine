@@ -614,12 +614,7 @@ def get_move_input(board, color):
             print("Invalid move format. Please enter in the format 'e2 to e4'.")
             # Loop continues to prompt again
 
-# --- 10. Testing Functions (Optional, but Good Practice) ---
-# The test functions here still use is_valid_piece_move directly for simplicity,
-# as they are testing the validation logic itself.
 
-# 
-# --- 11. Main Game Loop Function ---
 
 def main():
     """Main function to run the console chess game."""
@@ -700,6 +695,5 @@ def main():
 # --- 12. Entry Point ---
 
 if __name__ == "__main__":
-    # You can choose to run tests or the main game
-    # run_all_tests() 
+  
     main()
